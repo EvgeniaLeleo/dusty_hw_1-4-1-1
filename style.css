@@ -1,0 +1,54 @@
+.body {
+  background-color: #fbfbfb;
+}
+
+.dimensions,
+.dimensions-item {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-style: normal;
+  line-height: normal;
+  color: #333232;
+}
+
+.dimensions {
+  width: 317px;
+}
+
+.dimensions-title {
+  font-size: 18px;
+  font-weight: 700;
+
+  margin: 0;
+}
+
+.dimensions-list {
+  font: 0/0 a;
+
+  margin-top: 12px;
+}
+
+.dimensions-item {
+  display: inline-block;
+
+  font-size: 16px;
+  font-weight: 400;
+
+  padding: 6px;
+  margin-right: 8px;
+  margin-top: 8px;
+
+  background-color: #eee;
+  border: 1px solid #eee;
+  border-radius: 3px;
+
+  cursor: pointer;
+  transition: border 0.1s;
+}
+
+.dimensions-item:hover {
+  border: 1px solid #2cb708;
+}
+
+.dimensions-item:last-child {
+  margin-right: 0;
+}
